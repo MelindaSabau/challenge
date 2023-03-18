@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="css/main.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo&display=swap"
+      rel="stylesheet"
+    />
+    <title>John's portfolio</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="page-header__inner">
+        <ul class="menu unstyled-list">
+          <li class="menu__item">
+            <a class="menu__link link" href="#">Works</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link link" href="#">Blog</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link link" href="#">Contact</a>
+          </li>
+        </ul>
+        <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg
+            width="24"
+            height="24"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </button>
+      </div>
+    </header>
+    <main>
+      <div class="about">
+        <img
+          class="john-img"
+          src="./images/john.png"
+          alt="John portraits"
+          width="180"
+        />
+        <h1>Hi, I am John, Creative Technologist</h1>
+        <p class="descript">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit. Exercitation
+          veniam consequat sunt nostrud amet.
+        </p>
+
+        <button class="dw-button" type="button">Download Resume</button>
+      </div>
+      <div class="posts">
+            <h4>Recent posts</h4>
+            <a href="#"><a class="view link" href="#">View all</a>
+            <div class="posts__item">
+                <h3>Making a design system from scratch</h3>
+                <ul>
+                    <li>12 Feb 2020</li>
+                    <li>|</li>
+                    <li>Design, Pattern</li>
+                </ul>
+                <p> Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                    amet sint. Velit officia consequat duis enim velit mollit.
+                    Exercitation veniam consequat sunt nostrud amet.
+                </p>
+                   
+                
+            </div>
+            <div class="posts__item">
+                <h3>Creating pixel perfect icons in Figma</h3>
+                <ul>
+                    <li>12 Feb 2020</li>
+                    <li>|</li>
+                    <li>Figma, Iccon Design</li>
+                   
+                </ul>
+                <p> Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                    amet sint. Velit officia consequat duis enim velit mollit.
+                    Exercitation veniam consequat sunt nostrud amet.
+                </p>
+            </div>
+      </div>
+      <div class="ft-works">
+        <h4>Featured works</h4>
+        <ul>
+          <li>
+            <!--<img
+              srcset="
+                ./images/gallery/gallery-10-50w.png   50w,
+                ./images/gallery/gallery-10-140w.png 140w,
+                ./images/gallery/gallery-10-280w.png 280w
+              "
+              sizes="10vw"
+              src="./images/gallery/gallery-10-50w.png"
+              alt="an gallery image"
+              class="gallery-image right-img"
+            />-->
+            <h2>Designing Dashboards</h2>
+            <p class="date">2020</p>
+            <p class="light">Dashboard</p>
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
+          </li>
+          <li class="nomobile">
+            <img
+              srcset="
+                ./images/gallery/gallery-10-50w.png   50w,
+                ./images/gallery/gallery-10-140w.png 140w,
+                ./images/gallery/gallery-10-280w.png 280w
+              "
+              sizes="10vw"
+              src="./images/gallery/gallery-10-50w.png"
+              alt="an gallery image"
+              class="gallery-image right-img"
+            />
+            <h2>Vibrant Portraits of 2020</h2>
+            <p>2018</p>
+            <p>Illustration</p>
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
+          </li>
+          <li class="nomobile">
+            <img
+              srcset="
+                ./images/gallery/gallery-10-50w.png   50w,
+                ./images/gallery/gallery-10-140w.png 140w,
+                ./images/gallery/gallery-10-280w.png 280w
+              "
+              sizes="10vw"
+              src="./images/gallery/gallery-10-50w.png"
+              alt="an gallery image"
+              class="gallery-image right-img"
+            />
+            <h2>36 Days of Malayalam type</h2>
+            <p>2018</p>
+            <p>Typography</p>
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </main>
+    <footer>
+      <div>
+        <ul>
+          <li>
+            <a href="#" target="_blank">
+              <svg><use href=""></use></svg>
+            </a>
+          </li>
+          <li>
+            <a href="#" target="_blank">
+              <svg><use href=""></use></svg>
+            </a>
+          </li>
+          <li>
+            <a href="#" target="_blank">
+              <svg><use href=""></use></svg>
+            </a>
+          </li>
+          <li>
+            <a href="#" target="_blank">
+              <svg><use href=""></use></svg>
+            </a>
+          </li>
+          <p>Copyright ©2020 All rights reserved</p>
+        </ul>
+      </div>
+    </footer>
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
+      </button>
+      <div class="inner-mobile-menu">
+        <ul class="mobile-menu">
+          <li class="mobile-menu__item link">
+            <a class="mobile-menu__item" href="#">Works</a>
+          </li>
+          <li class="mobile-menu__item link">
+            <a class="mobile-menu__item" href="#">Blog</a>
+          </li>
+          <li class="mobile-menu__item link">
+            <a class="mobile-menu__item" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script defer src="js/mobile-menu.js"></script>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+.posts {
+  background-color: var(--background-color);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.view {
+  display: none;
+}
+h3 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
+}
+h4 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 60px;
+}
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+li {
+  padding-right: 20px;
+  padding-top: 12px;
+  padding-bottom: 19px;
+}
+.posts__item {
+  background-color: var(--white-color);
+  margin: 10px;
+  padding: 19px;
+}
